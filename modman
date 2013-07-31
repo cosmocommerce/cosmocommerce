@@ -1,0 +1,3 @@
+code                                   app/code/community/CosmoCommerce/ThemeFix
+adminhtml/template      app/design/adminhtml/default/CosmoCommerce/template
+CosmoCommerce_ThemeFix.xml                          app/etc/modules/CosmoCommerce_ThemeFix.xml

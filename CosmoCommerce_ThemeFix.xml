@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <CosmoCommerce_ThemeFix>
+            <active>true</active>
+            <codePool>community</codePool>
+        </CosmoCommerce_ThemeFix>
+    </modules>
+</config>
