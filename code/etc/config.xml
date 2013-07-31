@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <CosmoCommerce_ThemeFix>
+                <version>0.1.0</version>
+            </CosmoCommerce_ThemeFix>
+        </modules>
+        <models>
+            <CosmoCommerce_ThemeFix_controller>
+                <class>CosmoCommerce_ThemeFix_Controller</class>
+            </CosmoCommerce_ThemeFix_controller>
+            <CosmoCommerce_ThemeFix>
+                <class>CosmoCommerce_ThemeFix_Model</class>
+            </CosmoCommerce_ThemeFix>
+            <core>
+                <rewrite>
+                    <design_package>CosmoCommerce_ThemeFix_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <CosmoCommerce_ThemeFix_observer>
+                        <type>singleton</type>
+                        <class>CosmoCommerce_ThemeFix_Controller_Observer</class>
+                        <method>overrideTheme</method>
+                    </CosmoCommerce_ThemeFix_observer>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+
+    <default>
+        <design>
+            <admin>
+                <theme>CosmoCommerce</theme>
+            </admin>
+        </design>
+    </default>
+    
+<!-- now set it directly from Package.php's fallback
+    enable below config when use enterprise version 
+    <stores>
+        <admin>
+            <design>
+                <theme>
+                    <default>enterprise</default>
+                </theme>
+            </design>
+        </admin>
+    </stores>
+    end of enable below config when use enterprise version -->
+
+</config>
