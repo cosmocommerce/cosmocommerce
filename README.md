@@ -18,6 +18,7 @@ Dependency:
 ##Installation##
 
 modman init 
+
 modman clone https://github.com/cosmocommerce/cosmocommerce.git
 
 
