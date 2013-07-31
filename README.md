@@ -1,0 +1,4 @@
+cosmocommerce
+=============
+
+CosmoCommerce Settings
