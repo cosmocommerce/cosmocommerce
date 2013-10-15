@@ -3,6 +3,7 @@
     <sections>
         <design>
             <groups>
+                <!--
                 <admin translate="label">
                     <label>Admin Theme</label>
                     <frontend_type>text</frontend_type>
@@ -18,6 +19,7 @@
                         </theme>
                     </fields>
                 </admin>
+                -->
             </groups>
         </design>
     </sections>
