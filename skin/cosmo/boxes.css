@@ -810,7 +810,7 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .login-form .input-box br { display:none; }
 .login-form input.input-text { width:255px; background:transparent url(images/bkg_login-input.png) no-repeat 0 0; border:0; padding:8px 10px 9px; font-size:16px; -moz-box-shadow:none; box-shadow:none; }
 .login-form input.validation-failed { background-position:0 -47px; }
-.login-form h2 { font:bold 16px/1.1 Helvetica, Arial, sans-serif; color:#f47b20; margin:0 0 40px; background:url(images/login-logo.gif) no-repeat 33px 19px; padding:38px 0 20px 239px; }
+.login-form h2 { font:bold 16px/1.1 Helvetica, Arial, sans-serif; color:#f47b20; margin:0 0 40px; background:url(images/logobig_top.png) no-repeat 33px 19px; padding:38px 0 20px 239px; }
 .login-form label { font-weight:bold; font:bold 16px/1.1 Helvetica, Arial, sans-serif; color:#555; display:block; padding:0 0 5px 5px; }
 .login-form .form-buttons { margin:12px 0 0 0; padding:0 72px; clear:both; text-align:right; }
 .login-container a { color:#0065b1; text-decoration:none; }
