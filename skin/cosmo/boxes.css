@@ -116,7 +116,7 @@
 .grid td input.input-text-export-filter { width:274px; }
 .grid td input.input-text-range { width:106px; }
 .grid td input.input-text-range-date { width:89px; }
-.grid table td { border-width:1px 1px 0 0; border-color:#f3f3f3 #e3e3e3 transparent transparent; border-right-color:rgba(0, 0, 0, 0.1); border-style:solid; color:#4c4c4c; font-size:11px; }
+.grid table td { border-width:1px 1px 0 0; border-color:#f3f3f3 #e3e3e3 transparent transparent; border-right-color:rgba(0, 0, 0, 0.1); border-style:solid; color:#4c4c4c; font-size:14px; }
 .grid table tr:first-child td { border-top:0; }
 .grid table.border tbody td { background:#fff !important; }
 .grid table td.last { border-right:0; }

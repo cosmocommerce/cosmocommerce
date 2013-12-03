@@ -12,7 +12,7 @@ div.calendar {
     color: #333;
     cursor: default;
     background: #fff;
-    font-family: Arial,  Helvetica,  sans-serif;
+    font-family: 微软雅黑,Microsoft Yahei,Arial,  Helvetica,  sans-serif;
 }
 .calendar:after, .calendar:before {
     content: '';
