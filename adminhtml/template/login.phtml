@@ -38,7 +38,11 @@
                     <div class="clear"></div>
                     <div class="form-buttons">
                         <a class="left" href="<?php echo Mage::helper('adminhtml')->getUrl('adminhtml/index/forgotpassword', array('_nosecret' => true)) ?>"><?php echo Mage::helper('adminhtml')->__('Forgot your password?') ?></a>
-                        <input type="submit" class="form-button" value="<?php echo Mage::helper('adminhtml')->__('Login') ?>" title="<?php echo Mage::helper('adminhtml')->__('Login') ?>" /></div>
+                       
+                        
+                        
+                        <button title="<?php echo Mage::helper('adminhtml')->__('Login') ?>" type="submit" class="scalable save" ><span><span><span><?php echo Mage::helper('adminhtml')->__('Login') ?></span></span></span></button>
+                        </div>
                 </div>
             <p class="login-support">
 				<?php echo "被访问的服务器地址为：".$_SERVER['SERVER_ADDR']."<br />"; ?>
