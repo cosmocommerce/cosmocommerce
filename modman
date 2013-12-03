@@ -3,5 +3,4 @@ adminhtml/layout      app/design/adminhtml/default/CosmoCommerce/layout
 adminhtml/template      app/design/adminhtml/default/CosmoCommerce/template
 CosmoCommerce_ThemeFix.xml                          app/etc/modules/CosmoCommerce_ThemeFix.xml
 
-skin/cosmo.css   skin/adminhtml/default/default/cosmo.css
-skin/logo.png   skin/adminhtml/default/default/logo.png
+skin/cosmo   skin/adminhtml/default/cosmo
