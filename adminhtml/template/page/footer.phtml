@@ -3,6 +3,16 @@
 <div class="footer-select">
     <p class="language-select"><?php echo $this->__('Interface Locale: %s', $this->getLanguageSelect()) ?></p>
     <p class="theme-select">
+        <?php echo Mage::helper('adminhtml')->__('This system has been customized by CosmoCommerce %s.', date('Y')) ?>
+        <br />
+        <?php echo Mage::helper('adminhtml')->__('support@cosmocommerce.com +86-021-66346672') ?>
+        <br />
+        <?php echo Mage::helper('adminhtml')->__('Shanghai,China Open Source Solutions Provider') ?>
+    </p>
+</div>
+<p class="legality">
+
+    <img src="<?php echo $this->getSkinUrl('images/logo.png'); ?>" class="v-middle" alt="" style="float:left;margin-right:10px;" />
         <?php
         echo "被访问的服务器地址为：".$_SERVER['SERVER_ADDR']."<br />";
 
@@ -25,20 +35,10 @@
         }
 
         echo  "您的IP地址为：".getRealIpAddr();
-        ?>
-    </p>
-</div>
-<p class="legality">
-
-    <img src="<?php echo $this->getSkinUrl('images/logo.png'); ?>" class="v-middle" alt="" style="float:left;" />&nbsp;&nbsp;
-	<?php echo Mage::helper('adminhtml')->__('This system has been customized by CosmoCommerce %s.', date('Y')) ?>
-	<br />
-	<?php echo Mage::helper('adminhtml')->__('support@cosmocommerce.com +86-021-66346672') ?>
-	<br />
-	<?php echo Mage::helper('adminhtml')->__('Shanghai,China Open Source Solutions Provider') ?>
+        ?><br />
+        <?php echo $this->__('Ver. %s', Mage::getVersion()) ?><br />
+        <?php echo $this->__('CosmoCommerce V. %s', '2013-12-P1') ?><br />
 </p>
-<?php echo $this->__('Ver. %s', Mage::getVersion()) ?><br />
-<?php echo $this->__('CosmoCommerce V. %s', '2013-12-P1') ?><br />
 <script type="text/javascript">
     function setInterfaceLanguage(evt){
         var elem = Event.element(evt);

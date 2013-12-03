@@ -1,8 +1,10 @@
 <div class="header-top">
-    <a href="<?php echo $this->getHomeLink() ?>"><img height="40" src="http://www.cosmocommerce.com/images/logo.png" alt="<?php echo $this->__('Logo') ?>" class="logo"/></a>
+    <a href="<?php echo $this->getHomeLink() ?>"><img height="40" src="<?php echo $this->getSkinUrl('images/logo.png'); ?>" alt="<?php echo $this->__('Logo') ?>" class="logo"/></a>
     <div class="header-right">
         <p class="super">
             <?php echo $this->__("Logged in as %s", $this->escapeHtml($this->getUser()->getUsername())) ?><span class="separator">|</span><?php echo $this->formatDate(null, 'full') ?><span class="separator">|</span><a href="http://www.fuwuqi.org.cn" onclick="this.target='_blank'" class="go-try"><?php echo $this->__('Server Upgrade') ?></a><span class="separator">|</span><a href="<?php echo $this->getLogoutLink() ?>" class="link-logout"><?php echo $this->__('Log Out') ?></a>
+            
+                <span class="separator">|</span><a class="go-try" href="http://www.cosmocommerce.com/"><?php echo $this->__('Support:+86-021-66346672'); ?></a>
         </p>
         <?php if ( Mage::getSingleton('admin/session')->isAllowed('admin/global_search') ): ?>
         <fieldset>
