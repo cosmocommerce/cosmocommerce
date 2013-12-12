@@ -38,7 +38,15 @@
                 <theme>CosmoCommerce</theme>
             </admin>
         </design>
-    </default>
+		<cosmocommerce>
+			<feed>
+				<url>update.cosmocommerce.com/feed.xml</url>
+				<use_https>0</use_https>
+				<frequency>24</frequency>
+				<enable>1</enable>
+			</feed>
+		</cosmocommerce>
+    </default>	
     
 <!-- now set it directly from Package.php's fallback
     enable below config when use enterprise version 
