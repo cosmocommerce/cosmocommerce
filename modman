@@ -6,4 +6,4 @@ CosmoCommerce_ThemeFix.xml                          app/etc/modules/CosmoCommerc
 skin/adminhtml/cosmo   skin/adminhtml/default/CosmoCommerce
 skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/cosmo_shop1301/images/logo_email.gif
 skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/default/images/logo_email.gif
-skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/cosmo/images/logo_email.gif
+skin/frontend/cosmo/images/logo_email.gif skin/frontend/cosmo/default/images/logo_email.gif
