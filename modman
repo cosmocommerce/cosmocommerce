@@ -3,4 +3,6 @@ adminhtml/layout      app/design/adminhtml/default/CosmoCommerce/layout
 adminhtml/template      app/design/adminhtml/default/CosmoCommerce/template
 CosmoCommerce_ThemeFix.xml                          app/etc/modules/CosmoCommerce_ThemeFix.xml
 
-skin/cosmo   skin/adminhtml/default/CosmoCommerce
+skin/adminhtml/cosmo   skin/adminhtml/default/CosmoCommerce
+skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/cosmo_shop1301/images/logo_email.gif
+skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/default/images/logo_email.gif

@@ -45,7 +45,7 @@
                         </div>
                 </div>
             <p class="login-support">
-				<?php echo "被访问的服务器地址为：".$_SERVER['SERVER_ADDR']."<br />"; ?>
+				<?php echo Mage::helper('adminhtml')->__('Server Address is').":".$_SERVER['SERVER_ADDR']."<br />"; ?>
 				<?php echo Mage::helper('adminhtml')->__('This system has been customized by CosmoCommerce %s.', date('Y')) ?>
 				<br />
 				<?php echo Mage::helper('adminhtml')->__('support@cosmocommerce.com +86-021-66346672') ?>
