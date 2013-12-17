@@ -46,6 +46,11 @@
 				<enable>1</enable>
 			</feed>
 		</cosmocommerce>
+        <hints>
+            <store_switcher>
+                <url><![CDATA[http://www.cosmocommerce.com]]></url>
+            </store_switcher>
+        </hints>
     </default>	
     
 <!-- now set it directly from Package.php's fallback
