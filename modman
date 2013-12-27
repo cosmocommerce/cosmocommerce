@@ -8,7 +8,7 @@ skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/cosmo_shop1301/i
 skin/frontend/cosmo/images/logo_email.gif skin/frontend/default/default/images/logo_email.gif
 skin/frontend/cosmo/images/logo_email.gif skin/frontend/cosmo/default/images/logo_email.gif
 
-skin/adminhtml/cosmo/images/media/uploader.swf           skin/adminhtml/default/default/media/uploader.swf
-skin/adminhtml/cosmo/images/media/uploaderSingle.swf     skin/adminhtml/default/default/media/uploaderSingle.swf
-skin/adminhtml/cosmo/images/media/uploader.swf           skin/adminhtml/default/CosmoCommerce/media/uploader.swf
-skin/adminhtml/cosmo/images/media/uploaderSingle.swf     skin/adminhtml/default/CosmoCommerce/media/uploaderSingle.swf
+skin/adminhtml/cosmo/media/uploader.swf           skin/adminhtml/default/default/media/uploader.swf
+skin/adminhtml/cosmo/media/uploaderSingle.swf     skin/adminhtml/default/default/media/uploaderSingle.swf
+skin/adminhtml/cosmo/media/uploader.swf           skin/adminhtml/default/CosmoCommerce/media/uploader.swf
+skin/adminhtml/cosmo/media/uploaderSingle.swf     skin/adminhtml/default/CosmoCommerce/media/uploaderSingle.swf
